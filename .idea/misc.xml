@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FITNESS/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FITNESS/app/src/main/res/layout/exerciselayout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FITNESS/app/src/main/res/layout/homepagelayout.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FITNESS/app/src/main/res/layout/startlayout.xml" value="0.22" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable-v24/bg_anim.xml" value="0.114" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable-v24/ic_favorite.xml" value="0.114" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable-v24/ic_fullscreen.xml" value="0.114" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable-v24/iconback.xml" value="0.114" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable/calculate_button_background.xml" value="0.114" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable/ic_add.xml" value="0.114" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable/ic_back.xml" value="0.114" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable/ic_remove.xml" value="0.114" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable/return_button_background.xml" value="0.114" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable/start_button_background.xml" value="0.114" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/bmilayout.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/custom_dialog.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/exerciselayout.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/homepagelayout.xml" value="0.176" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/jumping_layout.xml" value="0.25" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/jumpingvideo_layout.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/lesson1.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/lesson_part1.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/lesson_part2.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/mainlayout.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/startlayout.xml" value="0.12360688956433637" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
