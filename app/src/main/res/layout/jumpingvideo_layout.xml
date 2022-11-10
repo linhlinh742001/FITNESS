@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/XAM"
+    android:background="#2f3647"
     tools:context=".MainActivity"
     tools:ignore="MissingClass"
     android:orientation="vertical"   >
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:text="Video"
             android:textSize="25dp"
-            android:textColor="@color/XANH"
+            android:textColor="#04c87e"
             />
     </LinearLayout>
     <LinearLayout
