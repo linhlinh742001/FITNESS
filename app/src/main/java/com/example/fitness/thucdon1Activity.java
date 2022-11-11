@@ -6,19 +6,20 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class lesson_part1Activity extends AppCompatActivity {
-    public void tl_back2Click(View view){
-        Intent intent = new Intent(this,lessonActivity.class);
+public class thucdon1Activity extends AppCompatActivity {
+    public void tl_open1(View view){
+        Intent intent = new Intent(this, menu1Activity.class);
         this.startActivity(intent);
     }
-    public void bn_jumping(View view){
-        Intent intent = new Intent(this,jumpstart_Activity.class);
+    public void tl_open2(View view){
+        Intent intent = new Intent(this, menu2Activity.class);
         this.startActivity(intent);
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.lesson_part1);
+        setContentView(R.layout.thucdon1_layout);
     }
 }

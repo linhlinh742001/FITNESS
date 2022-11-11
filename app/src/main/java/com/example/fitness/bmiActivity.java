@@ -15,6 +15,10 @@ import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatSeekBar;
 
 public class bmiActivity extends AppCompatActivity {
+    public void tl_backtongquat(View view){
+        Intent intent = new Intent(this,tongquatActivity.class);
+        this.startActivity(intent);
+    }
     private TextView age;
     private TextView weight;
     private AppCompatSeekBar seekBar;

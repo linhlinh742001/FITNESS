@@ -8,7 +8,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
     public void startClick(View view){
-        Intent intent = new Intent(this,homepageActivity.class);
+        Intent intent = new Intent(this,tongquatActivity.class);
         this.startActivity(intent);
     }
 

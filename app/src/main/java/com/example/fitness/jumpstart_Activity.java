@@ -30,6 +30,10 @@ public void startClick(View view){
 
     this.startActivity(intent);
 }
+    public void bn_backlsp1(View view){
+        Intent intent = new Intent(this,lesson_part1Activity.class);
+        this.startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

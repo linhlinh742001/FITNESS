@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.fitness">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -34,6 +35,27 @@
             android:exported="false" />
         <activity
             android:name=".bmiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tongquatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".thucdon1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".menu1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".menu2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".jumpstart_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".jumping_activity"
+            android:exported="false" />
+        <activity
+            android:name=".jumpingvideo_Activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -11,6 +11,10 @@ public class homepageActivity extends AppCompatActivity {
         Intent intent = new Intent(this,exerciseactivity.class);
         this.startActivity(intent);
     }
+    public void quaylaitrangtongquat(View view){
+        Intent intent = new Intent(this,tongquatActivity.class);
+        this.startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
