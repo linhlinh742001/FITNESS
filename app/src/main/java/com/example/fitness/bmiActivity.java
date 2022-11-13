@@ -86,23 +86,23 @@ public class bmiActivity extends AppCompatActivity {
         }
     }
     //13/11/2022
-    public void AddData(Integer newEntry) {
+    public void AddData(Float newEntry) {
         boolean insertData = mDatabaseHelper.addData(newEntry);
     }
 
     public void showResult(View view) {
         int get_age = Integer.parseInt(age.getText().toString());
         int weight_value = Integer.parseInt(weight.getText().toString());
-        double get_height = (double)seekBar.getProgress()/ 100;
+        float get_height = (float)seekBar.getProgress()/ 100;
 
-        int bmi = (int) (weight_value /(get_height * get_height));
+        float bmi = (float)weight_value /(get_height * get_height);
 
         AddData(bmi);
 
         showBMI(bmi);
     }
 // 14/10
-    private void showBMI(int bmi) {
+    private void showBMI(float bmi) {
 
         if (bmi < 18.5){
             showCustomDialog(R.drawable.underweight, "Nhẹ cân", "Bổ sung chất dinh dưỡng" );
