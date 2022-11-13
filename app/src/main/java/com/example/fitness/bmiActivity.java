@@ -19,10 +19,16 @@ public class bmiActivity extends AppCompatActivity {
         Intent intent = new Intent(this,tongquatActivity.class);
         this.startActivity(intent);
     }
+    private static final  String TAG = "bmiActivity";
+    DatabaseHelper mDatabaseHelper;
     private TextView age;
     private TextView weight;
     private AppCompatSeekBar seekBar;
     private TextView height_value;
+    public void tl_list(View view){
+        Intent intent = new Intent(this,ListActivity.class);
+        this.startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +39,8 @@ public class bmiActivity extends AppCompatActivity {
         seekBar = findViewById(R.id.seek_bar);
         seekBar.setOnSeekBarChangeListener(listener);
         height_value = findViewById(R.id.height_value);
+        mDatabaseHelper = new DatabaseHelper(this);
+
     }
 
     private SeekBar.OnSeekBarChangeListener listener = new SeekBar.OnSeekBarChangeListener() {
@@ -78,12 +86,18 @@ public class bmiActivity extends AppCompatActivity {
         }
     }
 
+    public void AddData(Integer newEntry) {
+        boolean insertData = mDatabaseHelper.addData(newEntry);
+    }
+
     public void showResult(View view) {
         int get_age = Integer.parseInt(age.getText().toString());
         int weight_value = Integer.parseInt(weight.getText().toString());
         double get_height = (double)seekBar.getProgress()/ 100;
 
-        int bmi = weight_value / (int)(get_height * get_height);
+        int bmi = (int) (weight_value /(get_height * get_height));
+
+        AddData(bmi);
 
         showBMI(bmi);
     }

@@ -203,21 +203,21 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/bottom_card"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         app:cardBackgroundColor="#a9acc1"
-        app:cardElevation="8dp"
         app:cardCornerRadius="8dp"
-        app:layout_constraintHeight_percent=".20"
-        app:layout_constraintTop_toBottomOf="@id/middle_card"
-        app:layout_constraintStart_toStartOf="parent"
+        app:cardElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:id="@+id/bottom_card" >
+        app:layout_constraintHeight_percent=".20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/middle_card">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/gender"
@@ -291,33 +291,52 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/calculate_button"
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:textSize="20dp"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/calculate_button_background"
+        android:onClick="showResult"
         android:text="Tính chỉ số"
         android:textAllCaps="false"
-        android:onClick="showResult"
-        android:background="@drawable/calculate_button_background"
+        android:textSize="18dp"
+
+        app:layout_constraintTop_toBottomOf="@+id/bottom_card"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/history"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/return_button_background"
+        android:onClick="tl_list"
+        android:text="Lịch sử BMI"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toStartOf="@+id/return_button"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/calculate_button"
         app:layout_constraintTop_toBottomOf="@+id/bottom_card"
         tools:ignore="HardcodedText" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/return_button"
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:textSize="20dp"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/return_button_background"
+        android:onClick="tl_backtongquat"
         android:text="Trở về"
         android:textAllCaps="false"
-        android:background="@drawable/return_button_background"
-        android:layout_marginTop="8dp"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/calculate_button"
-        tools:ignore="HardcodedText"
-        android:onClick="tl_backtongquat"/>
+        app:layout_constraintTop_toBottomOf="@+id/bottom_card"
+        tools:ignore="HardcodedText" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

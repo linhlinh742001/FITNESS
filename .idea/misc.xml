@@ -18,7 +18,7 @@
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable/return_button_background.xml" value="0.114" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/drawable/start_button_background.xml" value="0.114" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
-        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/bmilayout.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/bmilayout.xml" value="0.25" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/custom_dialog.xml" value="0.20018115942028986" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/exerciselayout.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/homepagelayout.xml" value="0.176" />
@@ -27,6 +27,7 @@
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/lesson1.xml" value="0.20018115942028986" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/lesson_part1.xml" value="0.25" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/lesson_part2.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/list_layout.xml" value="0.2427536231884058" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/mainlayout.xml" value="0.20018115942028986" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/menu1_layout.xml" value="0.20018115942028986" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/FITNESS/app/src/main/res/layout/menu2_layout.xml" value="0.20018115942028986" />
