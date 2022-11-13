@@ -85,7 +85,7 @@ public class bmiActivity extends AppCompatActivity {
             weight.setText(String.valueOf(weight_value));
         }
     }
-
+    //13/11
     public void AddData(Integer newEntry) {
         boolean insertData = mDatabaseHelper.addData(newEntry);
     }
