@@ -18,6 +18,12 @@ public class ListActivity extends AppCompatActivity {
         Intent intent = new Intent(this, bmiActivity.class);
         this.startActivity(intent);
     }
+    public void delete(View view) {
+        mDatabaseHelper.deteleData();
+
+        populateListView();
+    }
+
 
     private static final String TAG = "ListDataActivity";
     DatabaseHelper mDatabaseHelper;

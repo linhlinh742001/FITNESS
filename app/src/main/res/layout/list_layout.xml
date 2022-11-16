@@ -10,18 +10,29 @@
     android:orientation="vertical"
     android:background="#D9D9D9">
 
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/tl_trove"
         android:layout_width="40dp"
-        android:onClick="trove_maytinh"
         android:layout_height="40dp"
-        android:background="@drawable/ic_back" />
-
+        android:background="@drawable/ic_back"
+        android:onClick="trove_maytinh" />
 
     <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/listView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/delete"
+        android:layout_width="117dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/calculate_button_background"
+        android:onClick="delete"
+        android:text="Xóa dữ liệu" />
+
+
 
 
 </LinearLayout>
