@@ -4,25 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".thucdon1Activity">
+    tools:context=".thucdon1Activity"
+    android:background="#D9D9D9">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gầy"
-        android:onClick="tl_open1"/>
+        android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tl_trove"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_back"
+        android:onClick="tl_back_tongquat" />
 
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/chonthucdon"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:text="Béo phì"
-        android:onClick="tl_open2"/>
+        android:gravity="center"
+        android:text="THỰC ĐƠN DÀNH CHO ..."
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="48dp" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="160dp"
+            android:layout_height="420dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0"
+            android:onClick="tl_open1"
+            app:srcCompat="@drawable/gay" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="200dp"
+            android:layout_height="420dp"
+            android:layout_weight="0"
+            android:onClick="tl_open2"
+            app:srcCompat="@drawable/beo" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

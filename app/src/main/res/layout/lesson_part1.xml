@@ -63,7 +63,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:background="@color/white"
-                    android:layout_marginTop="15dp"/>
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/batnhay"/>
 
 
                 <TextView
@@ -87,7 +88,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:background="@color/white"
-                    android:layout_marginTop="15dp"/>
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/buoclen"/>
 
 
                 <TextView
@@ -111,7 +113,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:background="@color/white"
-                    android:layout_marginTop="15dp"/>
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/hitdat"/>
 
 
                 <TextView
@@ -135,7 +138,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:background="@color/white"
-                    android:layout_marginTop="15dp"/>
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/cobung"/>
 
 
                 <TextView

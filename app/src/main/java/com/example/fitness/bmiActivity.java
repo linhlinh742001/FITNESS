@@ -95,7 +95,7 @@ public class bmiActivity extends AppCompatActivity {
         int weight_value = Integer.parseInt(weight.getText().toString());
         float get_height = (float)seekBar.getProgress()/ 100;
 
-        float bmi = (float)weight_value /(get_height * get_height);
+        float bmi = (float ) weight_value /(get_height * get_height);
 
         AddData(bmi);
 
