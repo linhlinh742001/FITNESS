@@ -76,7 +76,8 @@
             android:layout_height="wrap_content"
             android:text="Video"
             android:textSize="25dp"
-            android:textColor="@color/white"  />
+            android:textColor="@color/white"
+            android:onClick="videoClick"/>
           //  android:onClick="videoClick"
 
     </LinearLayout>

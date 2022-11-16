@@ -1,5 +1,6 @@
 package com.example.fitness;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -11,6 +12,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Locale;
 
 public class jumping_activity extends AppCompatActivity {
+
+    public void bn_backlsp3(View view ){
+        Intent intent = new Intent(this,lesson_part1Activity.class);
+        this.startActivity(intent);
+
+    }
+    public void videoClick(View view ){
+        Intent intent = new Intent(this,lesson_part1Activity.class);
+        this.startActivity(intent);
+
+    }
     private static final long START_TIME_IN_MILLIS = 60000;
 
     private TextView mTextViewCountDown;

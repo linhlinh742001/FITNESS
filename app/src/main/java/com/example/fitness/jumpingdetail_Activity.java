@@ -8,8 +8,14 @@ import android.view.View;
 
 public class jumpingdetail_Activity extends AppCompatActivity {
 
-    public void bn_jumpingdetail(View view){
+    public void bn_jumping(View view){
         Intent intent = new Intent(this,jumping_activity.class);
+
+        this.startActivity(intent);
+    }
+
+    public void bn_backlsp3(View view){
+        Intent intent = new Intent(this,lesson_part1Activity.class);
 
         this.startActivity(intent);
     }

@@ -1,14 +1,20 @@
 package com.example.fitness;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.Bitmap;
+import android.view.View;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 public class jumpingvideo_Activity extends AppCompatActivity {
+    public void bn_back_hoat_hinh(View view){
+        Intent intent = new Intent(this, jumping_activity.class);
+        this.startActivity(intent);
+    }
     WebView webView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,9 +22,9 @@ public class jumpingvideo_Activity extends AppCompatActivity {
         setContentView(R.layout.jumpingvideo_layout);
         webView = findViewById(R.id.webviewvideo);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.youtube.com/watch?v=W4eKVKwf3rQ&ab_channel=emiwong");
-       // WebSettings webSettings = webView.getSettings();
-     //   webSettings.setJavaScriptEnabled(true);
+        webView.loadUrl("https://www.youtube.com/watch?v=2J2g7XOr2i4/");
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
     }
 
 //    private class MywebClient extends WebViewClient{

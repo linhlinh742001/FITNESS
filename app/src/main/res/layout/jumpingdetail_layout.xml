@@ -21,8 +21,9 @@
             android:id="@+id/btn_back"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/iconback" />
-            //android:onClick="bn_backlsp3"
+            android:background="@drawable/iconback"
+            android:onClick="bn_backlsp3"/>
+
 
         <LinearLayout
             android:layout_width="match_parent"

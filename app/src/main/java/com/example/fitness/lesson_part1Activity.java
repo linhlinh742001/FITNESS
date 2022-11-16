@@ -16,6 +16,10 @@ public class lesson_part1Activity extends AppCompatActivity {
         this.startActivity(intent);
     }
 
+    public void bn_jumpingdetail(View view){
+        Intent intent = new Intent(this,jumpingdetail_Activity.class);
+        this.startActivity(intent);
+    }
     public void bn_backlsp1(View view){
         Intent intent = new Intent(this,lessonActivity.class);
         this.startActivity(intent);

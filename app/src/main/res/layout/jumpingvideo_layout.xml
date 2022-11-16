@@ -65,7 +65,8 @@
             android:layout_marginRight="140dp"
             android:text="Hoạt hình"
             android:textSize="25dp"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:onClick="bn_back_hoat_hinh"/>
 
         <TextView
             android:id="@+id/textView"
@@ -148,7 +149,7 @@
     <WebView
                 android:id="@+id/webviewvideo"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="match_parent"/>
     </LinearLayout>
 
 </LinearLayout>
