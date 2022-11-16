@@ -16,6 +16,11 @@ public class lesson_part1Activity extends AppCompatActivity {
         this.startActivity(intent);
     }
 
+    public void bn_backlsp1(View view){
+        Intent intent = new Intent(this,lessonActivity.class);
+        this.startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

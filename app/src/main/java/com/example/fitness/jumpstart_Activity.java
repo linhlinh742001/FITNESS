@@ -30,6 +30,13 @@ public void startClick(View view){
 
     this.startActivity(intent);
 }
+
+    public void bn_jumping(View view){
+        Intent intent = new Intent(this,jumping_activity.class);
+
+        this.startActivity(intent);
+    }
+
     public void bn_backlsp1(View view){
         Intent intent = new Intent(this,lesson_part1Activity.class);
         this.startActivity(intent);
@@ -37,7 +44,7 @@ public void startClick(View view){
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.jumping_layout);
+        setContentView(R.layout.batnhay_layout);
 
 
     }

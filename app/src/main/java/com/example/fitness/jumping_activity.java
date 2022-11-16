@@ -27,7 +27,7 @@ public class jumping_activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.jumping_layout);
+        setContentView(R.layout.batnhay_layout);
 
         mTextViewCountDown = findViewById(R.id.text_view_countdown);
 
