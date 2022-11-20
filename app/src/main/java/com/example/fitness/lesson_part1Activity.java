@@ -25,6 +25,15 @@ public class lesson_part1Activity extends AppCompatActivity {
         this.startActivity(intent);
     }
 
+    public void bn_buoclenghedetails(View view){
+        Intent intent = new Intent(this, buoclenghedetail_Activity.class);
+        this.startActivity(intent);
+    }
+    public void bn_chongdaydetails(View view){
+        Intent intent = new Intent(this, chongdaydetails_Activity.class);
+        this.startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

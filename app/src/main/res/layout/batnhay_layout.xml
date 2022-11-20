@@ -97,11 +97,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bật nhảy"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="25dp"
             android:textSize="25dp"
-            android:textColor="@color/white"
-
+            android:textColor="#04c87e"
+            android:textStyle="bold"
             />
+            //android:textColor="@color/white"
+
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -148,6 +151,20 @@
             android:background="@drawable/start_button_background"
             android:visibility="invisible"
             tools:visibility="visible" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginLeft="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/iconback"
+            />
+
 
     </LinearLayout>
 

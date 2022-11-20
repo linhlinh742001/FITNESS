@@ -81,7 +81,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical"
+                android:onClick="bn_buoclenghedetails">
 
                 <ImageView
                     android:id="@+id/imagelesson2"
@@ -106,7 +107,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical"
+                android:onClick="bn_chongdaydetails">
 
                 <ImageView
                     android:id="@+id/imagelesson3"

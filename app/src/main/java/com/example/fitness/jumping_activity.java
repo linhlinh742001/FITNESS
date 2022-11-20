@@ -23,7 +23,7 @@ public class jumping_activity extends AppCompatActivity {
         this.startActivity(intent);
 
     }
-    private static final long START_TIME_IN_MILLIS = 60000;
+    private static final long START_TIME_IN_MILLIS = 15000;
 
     private TextView mTextViewCountDown;
     private Button mButtonStartPause;

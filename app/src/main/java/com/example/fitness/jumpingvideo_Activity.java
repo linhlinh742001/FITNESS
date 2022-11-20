@@ -22,7 +22,7 @@ public class jumpingvideo_Activity extends AppCompatActivity {
         setContentView(R.layout.jumpingvideo_layout);
         webView = findViewById(R.id.webviewvideo);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.youtube.com/watch?v=2J2g7XOr2i4/");
+        webView.loadUrl("https://www.youtube.com/watch?v=2J2g7XOr2i4&ab_channel=HollyDolke");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
