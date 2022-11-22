@@ -33,6 +33,10 @@ public class lesson_part1Activity extends AppCompatActivity {
         Intent intent = new Intent(this, chongdaydetails_Activity.class);
         this.startActivity(intent);
     }
+    public void bn_tapcobungdetails(View view){
+        Intent intent = new Intent(this, tapcobungdetail_Activity.class);
+        this.startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

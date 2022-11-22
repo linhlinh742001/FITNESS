@@ -10,7 +10,10 @@ public class jumpingdetail_Activity extends AppCompatActivity {
 
     public void bn_jumping(View view){
         Intent intent = new Intent(this,jumpingdetail_Activity.class);
-
+        this.startActivity(intent);
+    }
+    public void jumping_videoClickdetail(View view){
+        Intent intent = new Intent(this,jumpingvideo_Activity.class);
         this.startActivity(intent);
     }
 

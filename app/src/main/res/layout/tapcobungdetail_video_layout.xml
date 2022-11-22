@@ -22,7 +22,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:background="@drawable/iconback"
-            android:onClick="bn_backlsp3"/>
+            android:onClick="bn_backlsp1tapcobung"/>
 
 
         <LinearLayout
@@ -43,16 +43,15 @@
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="right"
-
                 android:background="@drawable/ic_fullscreen" />
         </LinearLayout>
 
-<!--        <com.example.apptracker.GifImageView-->
-<!--            android:id="@+id/jumping.gif"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_alignParentLeft="true"-->
-<!--            android:layout_alignParentTop="true" />-->
+        <!--        <com.example.apptracker.GifImageView-->
+        <!--            android:id="@+id/jumping.gif"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentLeft="true"-->
+        <!--            android:layout_alignParentTop="true" />-->
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -67,10 +66,11 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-           android:layout_marginRight="140dp"
+            android:layout_marginRight="140dp"
             android:text="Hoạt hình"
             android:textSize="25dp"
-            android:textColor="#04c87e"/>
+            android:textColor="@color/white"
+            android:onClick="bn_back_tapcobungdetail"/>
 
         <TextView
             android:id="@+id/textView"
@@ -78,69 +78,22 @@
             android:layout_height="wrap_content"
             android:text="Video"
             android:textSize="25dp"
-            android:textColor="@color/white"
-            android:onClick="jumping_videoClickdetail"
+            android:textColor="#04c87e"
             />
-
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginBottom="20dp"
         android:gravity="center">
 
-        <pl.droidsonroids.gif.GifImageView
-            android:layout_width="420dp"
-            android:layout_height="200dp"
-            android:src="@drawable/jumping" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#04c87e"
-            android:textStyle="bold"
-            android:layout_marginTop="20dp"
-            android:textSize="25dp"
-            android:text="Bật nhảy"
-        />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Toàn thân"
-            android:layout_marginTop="10dp"
-            android:textSize="20dp"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center">
-        <TextView
-            android:layout_marginTop="20dp"
-            android:id="@+id/text_view_countdown"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:text="Bắt đầu đứng hai chân để gần nhau, tay buông xuống để hai bên, sau đó nhảy lên chân dạng ra và để tay lên cao trên đầu. Trở lại vị trí bắt đầu rồi lặp lại.
-            \n\nBài tập này tập luyện cho toàn thân và có tác dụng với tất cả các nhóm cơ lớn."
-            android:textColor="@android:color/white"
-            android:textSize="20sp" />
-
-
-
+        <WebView
+            android:id="@+id/tapcobungvideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
     </LinearLayout>
 
 </LinearLayout>

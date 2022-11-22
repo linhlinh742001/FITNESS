@@ -133,7 +133,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical"
+                android:onClick="bn_tapcobungdetails">
 
                 <ImageView
                     android:id="@+id/imagelesson4"
@@ -151,7 +152,8 @@
                     android:textColor="@color/white"
                     android:textSize="20dp"
                     android:layout_gravity="center"
-                    android:layout_marginEnd="70dp" />
+                    android:layout_marginEnd="70dp"
+                    />
 
             </TableRow>
 
