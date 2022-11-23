@@ -78,7 +78,6 @@
             android:textSize="25dp"
             android:textColor="@color/white"
             android:onClick="videoClick"/>
-          //  android:onClick="videoClick"
 
     </LinearLayout>
     <LinearLayout
@@ -159,11 +158,11 @@
         android:orientation="horizontal"
         android:layout_marginTop="30dp">
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_marginLeft="60dp"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:background="@drawable/iconback"
-            />
+            android:id="@+id/btn_back"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_next"
+            android:onClick="bn_backlsp1"/>
 
 
     </LinearLayout>

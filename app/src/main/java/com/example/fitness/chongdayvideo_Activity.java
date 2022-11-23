@@ -11,6 +11,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 public class chongdayvideo_Activity extends AppCompatActivity {
+    WebView webView;
     public void bn_backlsp1pushup(View view){
         Intent intent = new Intent(this,lesson_part1Activity.class);
         this.startActivity(intent);
