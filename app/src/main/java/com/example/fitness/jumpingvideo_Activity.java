@@ -12,7 +12,11 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 public class jumpingvideo_Activity extends AppCompatActivity {
     public void bn_back_hoat_hinh(View view){
-        Intent intent = new Intent(this, jumping_activity.class);
+        Intent intent = new Intent(this, jumpingdetail_Activity.class);
+        this.startActivity(intent);
+    }
+    public void bn_backlsp1_jump(View view){
+        Intent intent = new Intent(this, lesson_part1Activity.class);
         this.startActivity(intent);
     }
     WebView webView;

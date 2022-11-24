@@ -78,8 +78,9 @@
             android:layout_height="wrap_content"
             android:text="Video"
             android:textSize="25dp"
-            android:textColor="@color/white" />
-        // android:onClick="videoClickdetail"
+            android:textColor="@color/white"
+            android:onClick="video_buoclenghe"/>
+
 
     </LinearLayout>
     <LinearLayout
@@ -97,7 +98,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nhảy lên ghế"
+            android:text="Bước lên ghế"
             android:layout_marginTop="20dp"
             android:textSize="25dp"
             android:textColor="#04c87e"

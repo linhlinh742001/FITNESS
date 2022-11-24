@@ -11,6 +11,18 @@ public class buoclenghe_Activity extends AppCompatActivity {
         Intent intent = new Intent(this, lesson_part1Activity.class);
         this.startActivity(intent);
     }
+    public void bn_nextchongday(View view){
+        Intent intent = new Intent(this, chongday_Activity.class);
+        this.startActivity(intent);
+    }
+    public void startClick(View view){
+        Intent intent = new Intent(this,jumping_activity.class);
+        this.startActivity(intent);
+    }
+    public void videoClickbuoclenghe(View view){
+        Intent intent = new Intent(this,buoclenghdetail_video_Activity.class);
+        this.startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 

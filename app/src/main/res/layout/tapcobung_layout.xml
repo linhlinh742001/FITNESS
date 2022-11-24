@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         >
@@ -22,7 +22,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:background="@drawable/iconback"
-            android:onClick="bn_backlsp1pushup"/>
+            android:onClick="bn_backlsp1tapcb"/>
 
 
         <LinearLayout
@@ -43,7 +43,6 @@
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="right"
-
                 android:background="@drawable/ic_fullscreen" />
         </LinearLayout>
 
@@ -60,8 +59,8 @@
         android:orientation="horizontal"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
         android:gravity="center">
         <TextView
             android:id="@+id/textView2"
@@ -86,19 +85,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="0dp"
         android:gravity="center">
 
         <pl.droidsonroids.gif.GifImageView
             android:layout_width="420dp"
             android:layout_height="200dp"
-            android:src="@drawable/pushup" />
+            android:src="@drawable/buoclenghe" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chống đẩy"
-            android:layout_marginTop="20dp"
+            android:text="Tập cơ bụng"
+            android:layout_marginTop="5dp"
             android:textSize="25dp"
             android:textColor="#04c87e"
             android:textStyle="bold"
@@ -106,8 +105,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ngực, Cánh tay"
-            android:layout_marginTop="10dp"
+            android:text="X10"
+            android:layout_marginTop="5dp"
             android:textSize="20dp"
             android:textColor="@color/white"
             android:textStyle="bold"
@@ -116,28 +115,81 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:gravity="center">
+        <TextView
+            android:id="@+id/text_view_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="00:00"
+            android:textColor="@android:color/white"
+            android:textSize="50sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_start_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_countdown"
+            android:layout_centerHorizontal="true"
+            android:text="start"
+            android:width="150dp"
+            android:background="@drawable/start_button_background"
+            android:onClick="startClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_countdown"
+            android:layout_marginTop="10dp"
+
+            android:layout_toEndOf="@+id/button_start_pause"
+            android:text="reset"
+            android:width="150dp"
+            android:background="@drawable/start_button_background"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center">
+        android:layout_marginTop="5dp">
+
         <TextView
-            android:layout_marginTop="20dp"
-            android:id="@+id/text_view_countdown"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:text="Nằm áp xuống sàn lấy tay đỡ thân. Giữ thẳng thân trong khi nâng và hạ thân bằng tay.
-            \n\nBài tập này giúp tập ngực, vai, cơ tay sau"
-            android:textColor="@android:color/white"
-            android:textSize="20sp" />
-
+            android:text="Tiếp theo"
+            android:textColor="@color/xam"
+            android:gravity="center"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:onClick="bn_nextday2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày thứ 2"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="85dp"
+                >
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_next"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/ic_next"
+                android:layout_marginLeft="20dp"
+                android:onClick="bn_nextday2"/>
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

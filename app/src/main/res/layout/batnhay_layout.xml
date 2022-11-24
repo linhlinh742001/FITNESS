@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         >
@@ -58,8 +58,8 @@
         android:orientation="horizontal"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
         android:gravity="center">
         <TextView
             android:id="@+id/textView2"
@@ -84,7 +84,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="0dp"
         android:gravity="center">
 
@@ -96,7 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bật nhảy"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="5dp"
             android:textSize="25dp"
             android:textColor="#04c87e"
             android:textStyle="bold"
@@ -124,7 +124,7 @@
             android:layout_centerVertical="true"
             android:text="00:00"
             android:textColor="@android:color/white"
-            android:textSize="60sp" />
+            android:textSize="50sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button_start_pause"
@@ -155,16 +155,39 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="30dp">
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiếp theo"
+            android:textColor="@color/xam"
+            android:gravity="center"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bước lên ghế"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="85dp"
+            >
+        </TextView>
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_back"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:id="@+id/btn_next"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:background="@drawable/ic_next"
-            android:onClick="bn_backlsp1"/>
-
-
+            android:onClick="bn_nextbuoclenghe"
+            android:layout_marginLeft="20dp"     />
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

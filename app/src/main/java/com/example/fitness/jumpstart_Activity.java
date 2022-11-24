@@ -41,6 +41,10 @@ public void startClick(View view){
         Intent intent = new Intent(this,lesson_part1Activity.class);
         this.startActivity(intent);
     }
+    public void bn_nextbuoclenghe(View view){
+        Intent intent = new Intent(this,buoclenghe_Activity.class);
+        this.startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

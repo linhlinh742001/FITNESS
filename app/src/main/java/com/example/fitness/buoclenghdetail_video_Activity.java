@@ -14,6 +14,10 @@ import android.webkit.WebViewClient;
 public class buoclenghdetail_video_Activity extends AppCompatActivity {
     WebView webView;
     public void bn_back_buoclenghe(View view){
+        Intent intent = new Intent(this, buoclenghedetail_Activity.class);
+        this.startActivity(intent);
+    }
+    public void bn_backvideo_buoclenghe(View view){
         Intent intent = new Intent(this, lesson_part1Activity.class);
         this.startActivity(intent);
     }
@@ -22,7 +26,7 @@ public class buoclenghdetail_video_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.buoclenghdetail_video_layout);
-        webView = findViewById(R.id.chongdayvideo);
+        webView = findViewById(R.id.lenghevideo);
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://www.youtube.com/watch?v=sZzkUQWNTiw&ab_channel=SarahTran");
         WebSettings webSettings = webView.getSettings();

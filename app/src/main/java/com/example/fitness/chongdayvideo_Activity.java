@@ -21,7 +21,7 @@ public class chongdayvideo_Activity extends AppCompatActivity {
         Intent intent = new Intent(this, chongdaydetails_Activity.class);
         this.startActivity(intent);
     }
-    WebView webView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

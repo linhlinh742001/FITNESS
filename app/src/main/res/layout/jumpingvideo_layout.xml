@@ -12,34 +12,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         >
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_back"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/iconback" />
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/iconback"
+            android:onClick="bn_backlsp1_jump"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="right"
             android:orientation="horizontal"
             >
-            <ImageButton
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_heart"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_marginRight="10dp"
-                app:srcCompat="@drawable/ic_favorite" />
+                android:background="@drawable/ic_favorite" />
 
-            <ImageButton
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_fullview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
                 android:layout_gravity="right"
-                app:srcCompat="@drawable/ic_fullscreen" />
+
+                android:background="@drawable/ic_fullscreen" />
         </LinearLayout>
 
         <!--        <com.example.apptracker.GifImageView-->
