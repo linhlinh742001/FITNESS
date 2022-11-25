@@ -27,7 +27,6 @@ public void videoClick(View view ){
 }
 public void startClick(View view){
     Intent intent = new Intent(this,jumping_activity.class);
-
     this.startActivity(intent);
 }
 

@@ -12,14 +12,20 @@
         android:layout_height="wrap_content"
         android:text="GIỚI THIỆU"
         android:textColor="@color/white"
-        android:textSize="24sp"
-        android:gravity="center"/>
+        android:fontFamily="@font/merriweather_sans_bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TÍNH CHỈ SỐ                               THỰC ĐƠN"
+        android:text="TÍNH CHỈ SỐ                  THỰC ĐƠN"
         android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
         android:gravity="center"/>
 
     <LinearLayout
@@ -38,6 +44,7 @@
             android:layout_marginRight="20dp"
             android:layout_weight="0"
             app:srcCompat="@drawable/maytinh"
+            android:scaleType="fitCenter"
             android:onClick="tinhchiso"/>
 
         <ImageButton
@@ -46,6 +53,7 @@
             android:layout_height="150dp"
             android:layout_weight="0"
             app:srcCompat="@drawable/monan"
+            android:scaleType="fitCenter"
             android:onClick="thucdon"/>
 
     </LinearLayout>
@@ -53,6 +61,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="BÀI TẬP"
+        android:textSize="18dp"
         android:textColor="@color/white"
         android:gravity="center"
         android:layout_marginTop="20dp"/>
@@ -62,6 +71,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         app:srcCompat="@drawable/theduc"
+        android:scaleType="fitCenter"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="100dp"
         android:onClick="baitaptheduc"/>

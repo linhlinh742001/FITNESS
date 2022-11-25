@@ -78,7 +78,7 @@
             android:text="Video"
             android:textSize="25dp"
             android:textColor="@color/white"
-            android:onClick="videochongday"/>
+            android:onClick="videocobung"/>
 
     </LinearLayout>
     <LinearLayout
