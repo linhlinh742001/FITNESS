@@ -433,6 +433,7 @@
             android:layout_marginTop="15dp"
             android:background="@drawable/start_button_background"
             android:text="BẮT ĐẦU"
+            android:onClick="tl_open1"
             android:textSize="20dp" />
 
 

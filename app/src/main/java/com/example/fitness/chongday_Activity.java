@@ -20,6 +20,7 @@ public class chongday_Activity extends AppCompatActivity {
 
         this.startActivity(intent);
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
